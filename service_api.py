@@ -7,9 +7,7 @@ import pandas as pd
 from scipy.stats import ttest_ind
 from flask import Flask, jsonify, request
 
-# получить данные о пользователях и их покупках
-#df_users = pd.read_csv('/Users/vladimirgrigoryev/Documents/Data/Karpov_Courses/AB_Testing/final_project/example/data/df_users.csv')
-#df_sales = pd.read_csv('/Users/vladimirgrigoryev/Documents/Data/Karpov_Courses/AB_Testing/final_project/example/data/df_sales.csv')
+
 #df_users = pd.read_csv(os.environ['PATH_DF_USERS'])
 df_sales = pd.read_csv(os.environ['PATH_DF_SALES'])
 
