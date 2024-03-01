@@ -5,4 +5,7 @@ This project consists of two files needed to set up a simple API service for per
 - Dockerfile with the requirements
 - Python file with the Flask App exposing the APIs and further logic to perform the AB Tests
 
-The tests are accelerated by using CUPED.
+Special features:
+- simplicity;
+- acceleration by using CUPED;
+- AAB test insteadn of AB.
